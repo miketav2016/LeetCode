@@ -1,5 +1,9 @@
-package difficultyLevels.easy.t26MergeTwoSortedLists
+package difficultyLevels.easy.t21MergeTwoSortedLists
 
+/**
+ * Merge two sorted linked lists and return it as a sorted list.
+ * The list should be made by splicing together the nodes of the first two lists.
+ */
 object solution extends App {
   def mergeTwoLists(l1: ListNode, l2: ListNode): ListNode = {
     (l1, l2) match {

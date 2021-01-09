@@ -1,5 +1,8 @@
 package difficultyLevels.easy.t118PascalsTriangle
 
+/**
+ * Given a non-negative integer numRows, generate the first numRows of Pascal's triangle.
+ */
 object Solution extends App {
   def generate(numRows: Int): List[List[Int]] = {
     (1 to numRows).foldLeft(List[List[Int]]())((acc, cur) =>
