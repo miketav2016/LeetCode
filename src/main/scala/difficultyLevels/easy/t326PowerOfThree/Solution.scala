@@ -7,19 +7,15 @@ import scala.annotation.tailrec
  * An integer n is a power of three, if there exists an integer x such that n == 3x.
  */
 object Solution extends App {
+  @tailrec
   def isPowerOfThree(n: Int): Boolean = {
-    @tailrec
-    def _isPowerOfThree(n: Int, i: Int): Boolean = {
-      n match {
-        case 0 => false
-        case 1 => true
-        case _ if math.abs(n / 3) == 1 && n % 3 == 0 && i % 2 == 0 => true
-        case _ if n % 3 == 0 => _isPowerOfThree(n / 3, i + 1)
-        case _ if n % 3 != 0 => false
-      }
+    n match {
+      case 0 => false
+      case 1 => true
+      case _ if (n / 3) == 1 && n % 3 == 0 => true
+      case _ if n % 3 == 0 => isPowerOfThree(n / 3)
+      case _ => false
     }
-
-    _isPowerOfThree(n, 1)
   }
 
   val n = -9
