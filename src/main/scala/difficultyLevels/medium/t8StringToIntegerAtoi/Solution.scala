@@ -21,7 +21,7 @@ package difficultyLevels.medium.t8StringToIntegerAtoi
  */
 object Solution extends App {
   def myAtoi(s: String): Int = {
-    val tmp = "^[+,-]?\\d+".r.findFirstIn(s.strip()).getOrElse("0")
+    val tmp = "^[+,-]?\\d+".r.findFirstIn(s.trim()).getOrElse("0")
     Option(tmp).map(_.toInt).getOrElse(if (tmp.head == '-') Int.MinValue else Int.MaxValue)
   }
 
