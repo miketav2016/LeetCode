@@ -18,8 +18,4 @@ class SolutionTest extends AnyFunSuite {
     val nums = Array(-1, -1)
     assert(countSmaller(nums) === Array(0,0))
   }
-//  test("Test4") {
-//    val nums = Array(5,2,6,1)
-//    assert(countSmaller(nums) === Array(2, 1, 1, 0))
-//  }
 }
