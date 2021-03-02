@@ -1,6 +1,6 @@
-package marchLeetCodingChallenge2021.week1March1_7.distributeCandies
+package marchLeetCodingChallenge2021.week1March1_7
 
-import marchLeetCodingChallenge2021.week1March1_7.distributeCandies.Solution1DistributeCandies.distributeCandies
+import marchLeetCodingChallenge2021.week1March1_7.Solution1DistributeCandies.distributeCandies
 import org.scalatest.funsuite.AnyFunSuite
 
 class Solution1DistributeCandiesTest extends AnyFunSuite {
