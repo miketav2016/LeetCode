@@ -1,6 +1,6 @@
 package marchLeetCodingChallenge2021.week1March1_7
 
-import marchLeetCodingChallenge2021.week1March1_7.resourse.MyEntry
+import marchLeetCodingChallenge2021.resourse.MyEntry
 
 /**
  * Design a HashMap without using any built-in hash table libraries.

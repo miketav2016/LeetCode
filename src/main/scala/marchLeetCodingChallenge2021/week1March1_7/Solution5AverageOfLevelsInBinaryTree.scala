@@ -1,6 +1,6 @@
 package marchLeetCodingChallenge2021.week1March1_7
 
-import marchLeetCodingChallenge2021.week1March1_7.resourse.TreeNode
+import marchLeetCodingChallenge2021.resourse.TreeNode
 
 import scala.collection.mutable
 import scala.collection.mutable.ArrayBuffer
