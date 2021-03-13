@@ -1,9 +1,9 @@
 package marchLeetCodingChallenge2021.week2March8_14
 
-import marchLeetCodingChallenge2021.week2March8_14.Solution11CoinChange.coinChange
+import marchLeetCodingChallenge2021.week2March8_14.Solution12CoinChange.coinChange
 import org.scalatest.funsuite.AnyFunSuite
 
-class Solution11CoinChangeTest extends AnyFunSuite {
+class Solution12CoinChangeTest extends AnyFunSuite {
   test("testCoinChange0") {
     assert(coinChange(Array(1, 2, 5), 11) === 3)
   }

@@ -1,6 +1,6 @@
 package marchLeetCodingChallenge2021.week2March8_14
 
-object Solution11CoinChange {
+object Solution12CoinChange {
   def coinChange0(coins: Array[Int], amount: Int): Int = {
     val setRes = scala.collection.mutable.Set[Int]()
 
