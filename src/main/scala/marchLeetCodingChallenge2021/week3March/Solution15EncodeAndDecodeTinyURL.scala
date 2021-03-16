@@ -3,7 +3,7 @@ package marchLeetCodingChallenge2021.week3March
 import scala.annotation.tailrec
 import scala.collection.mutable
 
-class SolutionEncodeAndDecodeTinyURL {
+class Solution15EncodeAndDecodeTinyURL {
   val chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
   val codeDB: mutable.HashMap[String, String] = scala.collection.mutable.HashMap[String, String]()
   val urlDB: mutable.HashMap[String, String] = scala.collection.mutable.HashMap[String, String]()
