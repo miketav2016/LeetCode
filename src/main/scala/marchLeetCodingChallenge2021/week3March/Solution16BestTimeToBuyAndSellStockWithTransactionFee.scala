@@ -19,7 +19,7 @@ object Solution16BestTimeToBuyAndSellStockWithTransactionFee {
 
   def maxProfit(prices: Array[Int], fee: Int): Int = {
     prices.foldLeft((0, -prices.head)) { case ((cash, hold), cur) =>
-      val cashNew = Math.max(cash, hold + cur - fee)
+      val cashNew = Math.max(cash, cur + hold - fee)
       val holdNew = Math.max(hold, cashNew - cur)
       (cashNew, holdNew)
     }._1
