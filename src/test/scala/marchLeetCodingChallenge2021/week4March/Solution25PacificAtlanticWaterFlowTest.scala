@@ -1,9 +1,9 @@
 package marchLeetCodingChallenge2021.week4March
 
-import marchLeetCodingChallenge2021.week4March.SolutionPacificAtlanticWaterFlow.pacificAtlantic
+import marchLeetCodingChallenge2021.week4March.Solution25PacificAtlanticWaterFlow.pacificAtlantic
 import org.scalatest.funsuite.AnyFunSuite
 
-class SolutionPacificAtlanticWaterFlowTest extends AnyFunSuite {
+class Solution25PacificAtlanticWaterFlowTest extends AnyFunSuite {
 
     test("testPacificAtlantic0") {
         val matrix: Array[Array[Int]] = Array(

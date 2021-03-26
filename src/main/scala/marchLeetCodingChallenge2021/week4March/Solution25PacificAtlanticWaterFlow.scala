@@ -9,7 +9,7 @@ package marchLeetCodingChallenge2021.week4March
  * The order of returned grid coordinates does not matter.
  * Both m and n are less than 150.
  */
-object SolutionPacificAtlanticWaterFlow {
+object Solution25PacificAtlanticWaterFlow {
     def pacificAtlantic(matrix: Array[Array[Int]]): List[List[Int]] = {
         def isTouchesPacific(i: Int, j: Int): Boolean = {
             (i, j) match {
