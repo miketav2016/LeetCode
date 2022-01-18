@@ -12,7 +12,7 @@ class TreeNode(_value: Int = 0, _left: TreeNode = null, _right: TreeNode = null)
 class Solution701 {
     def insertIntoBST(root: TreeNode, `val`: Int): TreeNode = {
 
-        if (root == null) return new Nothing(`val`)
+        if (root == null) return new TreeNode(`val`)
         if (`val` > root.value)
             root.right = insertIntoBST(root.right, `val`) // Continue searching in the right subtree
         else
